@@ -1,0 +1,36 @@
+** ENVIADO ARQUIVOS PARA O GIT **
+
+1° PASSO
+	Ir no Github e criar um novo repositório.
+ 
+2° PASSO
+	Selecione os arquivos ou pasta que deseja enviar: 
+	Botão direito >> "Git Bash Here"
+
+3° PASSO	
+ 	Entrar com usuário e email: 
+	--> git config --global user.name"seu_nome" // nome da sua conta git
+	--> git config --global user.email "seu_email" // seu email git, cadastrado.
+
+4° PASSO 
+	Iniciar a sessão no repositório:
+	--> git init
+5° PASSO	
+	Adicionar a origim, pra onde vai os arquivos 
+	--> git remote add origin URL //URL do repositório que foi criado no Github ( clone or Download)
+
+6° PASSO
+	Sinconizar os arquivos:
+	--> git pull origin master
+
+7° PASSO
+	Enviar os arquivos 
+	--> git add .
+
+8° PASSO
+	Comitar os arquivos 
+	--> git commit -m "nome da versão"
+
+9° PASSO 
+	Enviar para o repositório Git	
+	--> git push origin master.

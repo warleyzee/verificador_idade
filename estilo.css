@@ -1,0 +1,38 @@
+body{
+    background: rgb(56, 165, 238);
+    font: normal 18px arial;
+    height: 100%;
+    width: 100%;
+}
+section{
+    
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+
+
+}
+h1{
+    color: white;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    color: white;
+}
+div{
+    padding: 8px;
+
+}
+#teste{
+    text-align: center;
+}
+img#foto{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
